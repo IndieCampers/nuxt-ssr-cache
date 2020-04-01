@@ -3,6 +3,7 @@
   "version": "1.5.1",
   "description": "Cache middleware for nuxt's SSR rendering.",
   "main": "lib/middleware.js",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "yarn mocha -r chai/register-expect tests",
